@@ -78,7 +78,7 @@ function adicionar(){
             mediaIdadeEspecifico[i] = 0;
         }
     }
-
+    
     resultado.innerText =
         "RESULTADO DA PESQUISA\n\n"+
         "Total de participantes: "+ qtdPessoas +" pessoas\n"+
