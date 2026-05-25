@@ -72,6 +72,8 @@ input{
 select{
     font-size: 6vw;
     margin-bottom: 2vh;
+    text-align: center;
+    text-align-last: center;
 }
 
 .adicionar{
