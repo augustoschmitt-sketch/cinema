@@ -29,10 +29,7 @@ function adicionar(){
 
     let nota = Number(notaSelect.value);
 
-    if(idadeInput.value == ""){
-        alert("Digite algo no campo idade!");
-        return;
-    } else if(idade < 0){
+    if(idade < 0){
         alert("Pesquisa encerrada!");
 
         qtdPessoas = 0;
@@ -43,12 +40,16 @@ function adicionar(){
             idadeEspecifico[i] = 0;
         }
 
+        resultado.innerText = "Programa resetado, esperando resultado...";
+
+        return;
+    } else if(idadeInput.value == ""){
+        alert("Digite algo no campo idade!");
         return;
     } else if(nota==0){
         alert("Escolha uma nota!");
         return;
     }
-
 
     qtdPessoas++;
 
